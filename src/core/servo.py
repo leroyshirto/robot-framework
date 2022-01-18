@@ -64,7 +64,7 @@ class Servo:
         if not 0.0 <= value <= 1.0:
             raise ValueError("Must be 0.0 to 1.0")
         duty_cycle = self._min_duty + int(value * self._duty_range)
-        print(f"duty: {duty_cycle}")
+        # print(f"duty: {duty_cycle}")
         self.duty(duty_cycle)
 
     @property

@@ -1,0 +1,37 @@
+{
+    "name": "21-dof-humanoid",
+    "attachments": [
+        {
+            "type": "pca9685",
+            "sda_pin": 22,
+            "scl_pin": 21
+        }
+    ],
+    "joints": [
+        {
+            "name": "head",
+            "parent": null,
+            "servo_index": "gpio/19"
+        },
+        {
+            "name": "left_shoulder",
+            "parent": "head",
+            "servo_index": "pca9685/0"
+        },
+        {
+            "name": "left_bicep",
+            "parent": "left_shoulder",
+            "servo_index": "pca9685/1"
+        },
+        {
+            "name": "left_forearm",
+            "parent": "left_bicep",
+            "servo_index": "pca9685/2"
+        },
+        {
+            "name": "left_wrist",
+            "parent": "left_forearm",
+            "servo_index": "pca9685/3"
+        }
+    ]
+}
