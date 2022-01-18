@@ -1,3 +1,5 @@
 micropy-cli
 pylint
 black
+rshell==0.0.31
+adafruit-ampy

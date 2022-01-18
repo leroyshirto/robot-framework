@@ -154,3 +154,4 @@ cython_debug/
 
 # robot-framework
 firmwares/*.bin
+config.json
