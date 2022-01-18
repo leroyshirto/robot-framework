@@ -13,3 +13,12 @@ Searching for the MicroPython Stubs `micropy stubs search esp32` and select the 
 Add stubs `micropy stubs add esp32-micropython-1.15.0`
 
 init a new project (Not required for this repo only listing this step for future ref) `micropy init`
+
+## MicroPython tips
+
+view memory usage
+
+```python
+import micropython
+micropython.mem_info()
+```
