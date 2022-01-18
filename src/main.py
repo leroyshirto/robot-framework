@@ -13,8 +13,8 @@ pca9685 = PCA9685(i2c)
 min_pos=0
 max_pos=180
 
-head_servo = DirectServo(machine.Pin(19), min_pulse_us=400, max_pulse_us=2400, actuation_range=180)
-arm_servo = PCAServo(pca9685, channel=0, min_pulse_us=600, max_pulse_us=2700, actuation_range=180)
+head_servo = DirectServo(machine.Pin(19))
+arm_servo = PCAServo(pca9685, channel=0)
 
 while True:
     print(f"moving head to {min_pos} degrees")

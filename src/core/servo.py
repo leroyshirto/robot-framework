@@ -93,8 +93,8 @@ class DirectServo(Servo):
         self,
         pin: Pin,
         freq=50,
-        min_pulse_us=500,
-        max_pulse_us=2000,
+        min_pulse_us=400,
+        max_pulse_us=2400,
         actuation_range=180,
     ):
         self.pin = pin
@@ -115,7 +115,7 @@ class PCAServo(Servo):
         channel: int,
         freq=50,
         min_pulse_us=600,
-        max_pulse_us=2400,
+        max_pulse_us=2700,
         actuation_range=180,
     ):
         self.pca9685 = pca9685
