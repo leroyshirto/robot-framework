@@ -2,8 +2,8 @@ from core.pca9685 import PCA9685
 from core.robot import Robot
 import time
 
-min_pos = 0
-max_pos = 180
+min_pos = 70
+max_pos = 100
 
 robot = Robot.from_config("21-dof-humanoid")
 
