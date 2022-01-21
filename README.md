@@ -14,6 +14,11 @@ Add stubs `micropy stubs add esp32-micropython-1.15.0`
 
 init a new project (Not required for this repo only listing this step for future ref) `micropy init`
 
+# Libs
+
+- websocket server https://github.com/BetaRavener/upy-websocket-server
+- logger https://github.com/micropython/micropython-lib/blob/master/python-stdlib/logging/logging.py
+
 ## MicroPython tips
 
 view memory usage

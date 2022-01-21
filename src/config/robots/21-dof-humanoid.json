@@ -12,36 +12,36 @@
             "name": "head",
             "servo_index": "gpio/19",
             "min_angle": 10,
-            "max_angle": 10,
+            "max_angle": 160,
             "home_angle": 90,
             "children": [
                 {
                     "name": "left_shoulder",
                     "servo_index": "pca9685/0",
-                    "min_angle": 0,
-                    "max_angle": 180,
+                    "min_angle": 10,
+                    "max_angle": 160,
                     "home_angle": 90,
                     "children": [
                         {
                             "name": "left_bicep",
                             "servo_index": "pca9685/1",
-                            "min_angle": 0,
-                            "max_angle": 180,
+                            "min_angle": 10,
+                            "max_angle": 160,
                             "home_angle": 90,
                             "children": [
                                 {
                                     "name": "left_forearm",
                                     "servo_index": "pca9685/2",
-                                    "min_angle": 0,
-                                    "max_angle": 180,
+                                    "min_angle": 10,
+                                    "max_angle": 160,
                                     "home_angle": 90,
                                     "children": [
                                         {
                                             "name": "left_wrist",
                                             "servo_index": "pca9685/3",
-                                            "min_angle": 0,
-                                            "max_angle": 180,
-                                            "home_angle": 0
+                                            "min_angle": 10,
+                                            "max_angle": 160,
+                                            "home_angle": 90
                                         }
                                     ]
                                 }
@@ -52,37 +52,37 @@
                 {
                     "name": "left_hip",
                     "servo_index": "pca9685/4",
-                    "min_angle": 0,
-                    "max_angle": 180,
+                    "min_angle": 10,
+                    "max_angle": 160,
                     "home_angle": 90,
                     "children": [
                         {
                             "name": "left_thigh",
                             "servo_index": "pca9685/5",
-                            "min_angle": 0,
-                            "max_angle": 180,
+                            "min_angle": 10,
+                            "max_angle": 160,
                             "home_angle": 90,
                             "children": [
                                 {
                                     "name": "left_knee",
                                     "servo_index": "pca9685/6",
-                                    "min_angle": 0,
-                                    "max_angle": 180,
+                                    "min_angle": 10,
+                                    "max_angle": 160,
                                     "home_angle": 90,
                                     "children": [
                                         {
                                             "name": "left_ankle",
                                             "servo_index": "pca9685/7",
-                                            "min_angle": 0,
-                                            "max_angle": 180,
+                                            "min_angle": 10,
+                                            "max_angle": 160,
                                             "home_angle": 90,
                                             "children": [
                                                 {
                                                     "name": "left_foot",
                                                     "servo_index": "pca9685/8",
-                                                    "min_angle": 0,
-                                                    "max_angle": 180,
-                                                    "home_angle": 0
+                                                    "min_angle": 10,
+                                                    "max_angle": 160,
+                                                    "home_angle": 90
                                                 }
                                             ]
                                         }

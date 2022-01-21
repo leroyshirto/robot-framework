@@ -103,8 +103,12 @@ class Robot:
         return self.__attachments
 
     @staticmethod
+    def get_config(name: str):
+        return load_json_config(f"config/robots/{name}.json")
+
+    @staticmethod
     def from_config(name: str):
-        robo_config = load_json_config(f"config/robots/{name}.json")
+        robo_config = Robot.get_config(name)
 
         # Attachments
         attachments = {}

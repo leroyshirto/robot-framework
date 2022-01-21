@@ -28,7 +28,7 @@ class Joint:
         self.max_angle = max_angle
         self.home_angle = home_angle
 
-        self.home()
+        # self.home()
 
     @property
     def name(self):
